@@ -72,3 +72,12 @@ let acceptData = () => {
   let deletePost = (e) => {
     e.parentElement.parentElement.remove();
   };
+
+  /**
+   * Edit post
+   */
+
+   let editPost = (e) => {
+    input.value = e.parentElement.previousElementSibling.innerHTML;
+    e.parentElement.parentElement.remove();
+  };
