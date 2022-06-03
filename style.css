@@ -3,8 +3,7 @@ body {
     margin: 0 50px;
 }
 
-.container {
-    display: flex;
+.container {display: flex;
     gap: 50px;
 }
 
@@ -30,12 +29,3 @@ i {
 #msg {
     color: red;
 }
-/* 
-#form>label {
-    display: flex;
-}
-
-#form>* {
-    margin: .5rem;
-}
- */
